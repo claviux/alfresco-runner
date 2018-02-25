@@ -4,7 +4,7 @@ ENV TERM xterm
 COPY  entry.sh /
 RUN chmod +x entry.sh
 
-MKDIR -p /opt/alfresco-5.0.a
+RUN mkdir -p /opt/alfresco-5.0.a
 
 VOLUME /opt/alfresco-5.0.a
 
