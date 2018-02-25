@@ -12,4 +12,6 @@ echo Alfresco is ready for action
 while [[ "$($CMD status | grep -i "not running")" == "" ]] ; do
     sleep 10
 done
+$CMD status
+date
 exit 1
