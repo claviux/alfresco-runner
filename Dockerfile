@@ -4,8 +4,8 @@ ENV TERM xterm
 COPY  entry.sh /
 RUN chmod +x entry.sh
 
-RUN groupadd -g 983 postgress
-RUN useradd -g 983 -u 984 -Md / -s /bin/bash postgress
+RUN groupadd -g 983 postgres
+RUN useradd -g 983 -u 984 -Md / -s /bin/bash postgres
 
 RUN mkdir -p /opt/alfresco-5.0.a
 
