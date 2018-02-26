@@ -23,6 +23,6 @@ RUN mkdir -p /hdd/alfresco-5.0.a
 VOLUME /opt/alfresco-5.0.a
 VOLUME /hdd/alfresco-5.0.a
 
-EXPOSE 8437
+EXPOSE 8473
 
 ENTRYPOINT /entry.sh
