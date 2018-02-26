@@ -9,7 +9,7 @@ $CMD start
 date
 echo Alfresco is ready for action
 
-while [[ "$($CMD status | grep -i "not running")" == "" ]] ; do
+while : ; do
     sleep 10
 done
 $CMD status
